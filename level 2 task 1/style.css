@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    background-color:bisque;
+    height: 100vh;
+    width: 100vw;
+    font-family: fantasy;
+    font-size: large;
+}
+
+.display{
+    text-align: right;
+    height: 10vh;
+    width: 35vw;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(240, 240, 240, 255);
+    font-size: 7vh;
+}
+
+.btn{
+    height: 7vh;
+    width: 7vw;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+.btn:hover{
+    background-color: rgb(143, 128, 109);
+}
+
+.backspace{
+    width: 15vw;
+}
