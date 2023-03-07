@@ -43,15 +43,15 @@ function display_answer() {
     try {
         let result = Function("return " + val + ";")();
         if (result == val || result == "undefined") {
-            document.getElementById("inp").setAttribute("value", "Invalid Syntext");
-
+            document.getElementById("inp").setAttribute("value", "Error");
+            if(result == "69"){document.getElementById("inp").setAttribute("value", "Holy Number");}
         }
         else {
             document.getElementById("inp").setAttribute("value", result);
         }
     }
     catch (err) {
-        document.getElementById("inp").setAttribute("value", "Invalid Syntext");
+        document.getElementById("inp").setAttribute("value", "Error");
     }
     let str = "./sounds/click" + Math.floor(Math.random() * 6) + ".mp3"
     let aud = new Audio();
