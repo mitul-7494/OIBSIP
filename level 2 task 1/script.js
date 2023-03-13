@@ -32,7 +32,7 @@ function pressed(x) {
     val += x;
     document.getElementById("inp").setAttribute("value", val);
     document.querySelector("input").scrollLeft = document.querySelector("input").scrollWidth;
-    let str = "./sounds/click" + Math.floor(Math.random() * 6) + ".mp3"
+    let str = "./sounds/click" + Math.floor(Math.random() * 3) + ".mp3"
     let aud = new Audio();
     aud.src = str;
     aud.play();
@@ -53,7 +53,7 @@ function display_answer() {
     catch (err) {
         document.getElementById("inp").setAttribute("value", "Error");
     }
-    let str = "./sounds/click" + Math.floor(Math.random() * 6) + ".mp3"
+    let str = "./sounds/click" + Math.floor(Math.random() * 3) + ".mp3"
     let aud = new Audio();
     aud.src = str;
     aud.play();
@@ -63,7 +63,7 @@ function del_last_elem() {
     let val = document.querySelector("input").value;
     val = val.substring(0, val.length - 1);
     document.getElementById("inp").setAttribute("value", val);
-    let str = "./sounds/click" + Math.floor(Math.random() * 6) + ".mp3"
+    let str = "./sounds/click" + Math.floor(Math.random() * 3) + ".mp3"
     let aud = new Audio();
     aud.src = str;
     aud.play();
@@ -71,7 +71,7 @@ function del_last_elem() {
 
 function clear_display() {
     document.getElementById("inp").setAttribute("value", "");
-    let str = "./sounds/click" + Math.floor(Math.random() * 6) + ".mp3"
+    let str = "./sounds/click" + Math.floor(Math.random() * 3) + ".mp3"
     let aud = new Audio();
     aud.src = str;
     aud.play();
