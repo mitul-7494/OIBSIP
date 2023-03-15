@@ -34,7 +34,7 @@ body{
     color: #c99354;
 }
 
-.btn:hover{
+.btn:hover, .btn.active{
     background-color:rgba(199, 139, 70, 0.726);
     color: #71512a;
 }
