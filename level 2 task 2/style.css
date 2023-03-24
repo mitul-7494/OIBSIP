@@ -1,0 +1,41 @@
+body{
+    background-color: palegreen;
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.image{
+    background-color: white;
+    width: 348px;
+    height: 438px;
+}
+
+.rocket{
+    position: absolute;
+    bottom:5px;
+    right: 5px;
+}
+
+.text{
+    position: absolute;
+    left: 375px;
+    top:2vh;
+    height: 98vh;
+    width:60vw;
+    text-align: justify;
+    font-size: large;
+
+}
+
+.pages{
+    height: 100vh;
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 40px;
+}
